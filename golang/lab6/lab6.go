@@ -30,5 +30,4 @@ func RunLab6Tasks() {
 	city := NewCity("Москва", "Россия", "12.6 млн")
 	fmt.Println("Население", city.GetPopul())
 	fmt.Println("Страна", city.GetArea())
-
 }
