@@ -55,7 +55,7 @@ func RunLab7() {
 
 	fmt.Printf("Цена после скидки: %.2f\n", calculateTotalCost(products))
 
-	phone.SetPrice(126000)
+	phone.SetPrice(125000)
 	fmt.Printf("Телефон '%s': цена до скидки - %.2f, цена после скидки - %.2f\n", phone.GetName(), phone.GetOldPrice(), phone.GetPrice())
 
 	book.SetDescription("самый популярный роман")
